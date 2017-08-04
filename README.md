@@ -38,16 +38,17 @@
   
     (1) 首先，要先讓電腦了解"昨日、隔日"的意義。
     (2) if (出現這類字詞), then (date = 前方第一個日期減 86400 秒)
-             
+
+
 [Task 2 : find name]
 
   以川普的 wiki 為例 (https://zh.m.wikipedia.org/zh-hant/%E5%94%90%E7%B4%8D%C2%B7%E5%B7%9D%E6%99%AE)
   
   1. 程式為三部分：
   
-    [0] 直接抓取 wiki 上的所有文字資料
-    [1] 進行斷詞，並取出人名 (nr)
-    [2] 整理成 freq table
+    [0] 直接抓取 wiki 上的所有文字資料
+    [1] 進行斷詞，並取出人名 (nr)
+    [2] 整理成 freq table
     
     
   2. 提高正確率：
